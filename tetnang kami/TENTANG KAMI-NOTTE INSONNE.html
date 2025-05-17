@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header style="background-color: #21bf73; color: white; padding: 1.5rem 0;">
+        <div style="width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 0 2rem;">
+
+            <!-- Logo dan Judul -->
+            <div style="display: flex; align-items: center;">
+                <img src="asset/logo.jpeg" alt="Logo" style="height: 40px; margin-right: 0.75rem;">
+                <h1 style="margin: 0; font-family: 'Georgia', serif; font-weight: bold; font-size: xx-large;">NOTTE
+                    INSONNE</h1>
+            </div>
+
+            <!-- Navigasi -->
+            <nav>
+                <a href="#home"
+                    style="color: white; font-weight: bold; margin-right: 1.5rem; text-decoration: none;">Beranda</a>
+                <a href="#menu"
+                    style="color: white; font-weight: bold; margin-right: 1.5rem; text-decoration: none;">Menu</a>
+                <a href="#tentangkami" style="color: white; font-weight: bold; text-decoration: none;">Tentang Kami</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Video Section dengan Opacity Hitam -->
+    <div class="relative w-full h-[870px] overflow-hidden">
+        <video autoplay muted loop playsinline class="absolute w-full h-full object-cover object-center">
+            <source src="asset/pizza2.mp4" type="video/mp4">
+        </video>
+        <!-- Overlay Hitam dengan Opacity -->
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+    </div>
+
+    <!-- Nama Restoran di atas Video -->
+    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+        <h1 style="font-family: 'Lobster', cursive; font-size: 15rem; color: #FFD700; text-shadow: black">
+            NOTTE INSONNE
+        </h1>
+    </div>
+
+    <div class="bg-neutral-100 py-16">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <p class="text-black text-lg max-w-3xl mx-auto mb-10">
+                Selamat datang di <span class="font-semibold text-red-600">NOTTE INSONNE </span>restoran Italia
+                otentik yang menyajikan cita rasa klasik dari Negara Italia. Kami berdedikasi menghadirkan
+                pengalaman kuliner yang hangat, berkelas, dan penuh rasa.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md ">
+                    <h3 class="text-xl font-semibold mb-2 text-red-700">Bahan Berkualitas</h3>
+                    <p class="text-black">Kami hanya menggunakan bahan segar pilihan, mulai dari tomat San Marzano,
+                        keju mozzarella asli, hingga minyak zaitun extra virgin.</p>
+                </div>
+
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md ">
+                    <h3 class="text-xl font-semibold mb-2 text-red-700">Resep Tradisional</h3>
+                    <p class="text-black">Setiap hidangan dibuat berdasarkan resep keluarga turun-temurun langsung
+                        dari Italia.</p>
+                </div>
+
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md ">
+                    <h3 class="text-xl font-semibold mb-2 text-red-700">Suasana Hangat</h3>
+                    <p class="text-black">Nikmati makan malam dengan suasana Italia yang nyaman, cocok untuk keluarga
+                        maupun momen romantis.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="py-20 px-6 md:px-24 bg-neutral-100 text-center">
+        <h3 class="text-3xl md:text-4xl font-bold text-black-400 mb-6">Hubungi Kami</h3>
+        <p class="text-black-300 mb-6">📍 Jl. Ring Road Utara, Ngringin, Condongcatur, Kec. Depok, Kabupaten Sleman,
+            Daerah Istimewa Yogyakarta<br>📞 021-68753-NOTTE<br>📧 @notteinsonne.id</p>
+        <a href="mailto:reservasi@notteinsonne.id"></a>
+    </div>
+
+    <!-- Footer -->
+    <footer style="background-color: #fd5e53; color: #f9fcfb; padding: 1rem;  ">
+        <div style="max-width: 1000px; margin: auto; text-align: center;">
+            <p style="margin: 0;">&copy; 2025 notte insonne. Cucinato con amore in Italia ❤️</p>
+            <p style="margin: 0.5rem 0 0;">Ikuti kami di:
+                <a href="#" style="color: #ffffff; text-decoration: none; margin: 0 0.5rem;">Instagram</a> |
+                <a href="#" style="color: #ffffff; text-decoration: none; margin: 0 0.5rem;">Facebook</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
