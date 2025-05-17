@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NOTTE INSONNE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-900 text-white">
+
+  <!-- Navbar -->
+  <header style="background-color: #21bf73; color: white; padding: 1.5rem 0;">
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 0 2rem;">
+      <!-- Logo dan Judul -->
+      <div style="display: flex; align-items: center;">
+        <img src="logo.jpeg.jpg" alt="Logo" style="height: 40px; margin-right: 0.75rem;">
+        <h1 style="margin: 0; font-family: 'Georgia', serif; font-weight: bold; font-size: xx-large;">NOTTE INSONNE</h1>
+      </div>
+      <!-- Navigasi -->
+      <nav>
+        <a href="#home" style="color: white; font-weight: bold; margin-right: 1.5rem; text-decoration: none;">Beranda</a>
+        <a href="#menu" style="color: white; font-weight: bold; margin-right: 1.5rem; text-decoration: none;">Menu</a>
+        <a href="#tentangkami" style="color: white; font-weight: bold; text-decoration: none;">Tentang Kami</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="relative h-screen bg-cover bg-center" style="background-image: url('https://images.restaurantfurniture.net/dpr_1.0,f_auto,q_auto/rfnet/media/contenttype/italian-restaurant-design-header-2.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-center px-6">
+      <h2 class="text-5xl md:text-6xl font-bold text-yellow-300 mb-4">NOTTE INSONNE</h2>
+      <p class="text-xl md:text-2xl text-gray-200 mb-6">Rasakan malam Italia yang tak terlupakan</p>
+      <a href="#menu" class="bg-yellow-400 text-gray-900 font-semibold px-6 py-3 rounded-full hover:bg-yellow-300 transition">Lihat Menu</a>
+    </div>
+  </div>
+
+  <!-- About -->
+  <div id="about" class="py-20 px-6 md:px-24 bg-gray-50">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Tentang Kami</h3>
+      <p class="text-gray-900 text-lg leading-relaxed">
+        Notte Insonne bukan sekadar restoran, tapi pengalaman. Kami menyajikan masakan klasik Italia dalam suasana malam penuh pesona dan cahaya lilin. Dari antipasti hingga tiramisu, setiap hidangan kami membawa Anda ke jantung kota Roma atau Florence.
+      </p>
+    </div>
+  </div>
+
+  <!-- Menu -->
+  <div id="menu" class="py-20 px-6 md:px-24 bg-gray-100">
+    <h3 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">Menu Pilihan</h3>
+    <div class="grid md:grid-cols-3 gap-10">
+      <!-- Menu Items -->
+      <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden hover:scale-105 transform transition w-full h-auto">
+        <img src="Makanan Pembuka.jpeg" alt="Ceprese Salad" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h4 class="text-xl font-semibold text-yellow-300">Makanan Pembuka</h4>
+          <p class="text-gray-100 mt-2">Caprese Salad </p>
+        </div>
+      </div>
+      <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden hover:scale-105 transform transition w-full h-auto">
+        <img src="Makanan Utama.jpg" alt="Lasagna" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h4 class="text-xl font-semibold text-yellow-300">Makanan Utama</h4>
+          <p class="text-gray-100 mt-2">Lasagna </p>
+        </div>
+      </div>
+      <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden hover:scale-105 transform transition w-full h-auto">
+        <img src="Makanan Penutup.jpg" alt="Tiramisu" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h4 class="text-xl font-semibold text-yellow-300">Makanan Penutup</h4>
+          <p class="text-gray-100 mt-2">Tiramisu</p>
+        </div>
+      </div>
+      <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden hover:scale-105 transform transition w-full h-auto">
+        <img src="Cemilan.jpeg" alt="Prosciutto" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h4 class="text-xl font-semibold text-yellow-300">Cemilan</h4>
+          <p class="text-gray-100 mt-2">Prosciutto</p>
+        </div>
+      </div>
+      <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden hover:scale-105 transform transition w-full h-auto">
+        <img src="Minuman.webp" alt="Limoncello" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h4 class="text-xl font-semibold text-yellow-300">Minuman</h4>
+          <p class="text-gray-100 mt-2">Limoncello</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonials -->
+  <div class="bg-gray-50 py-20 text-center px-6 md:px-24">
+    <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12">Ulasan Tamu</h3>
+    <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto text-gray-900">
+      <blockquote class="italic">"Aku Kamu dan NOTTE INSONNE malam itu." <br>— Krisnazen.</blockquote>
+      <blockquote class="italic">"Saya serasa di Italia, padahal masih di Jogja. 1000/100!" <br>— George Akmal.</blockquote>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div id="contact" class="py-20 px-6 md:px-24 bg-gray-100 text-center">
+    <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Hubungi Kami</h3>
+    <p class="text-gray-900 mb-6">
+      📍 Jl. Ring Road Utara, Ngringin, Condongcatur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta<br>
+      📞 021-68753-NOTTE<br>
+      📧 @notteinsonne.id
+    </p>
+  </div>
+
+  <!-- Footer -->
+  <footer style="background-color: #fd5e53; color: #f9fcfb; padding: 1rem;">
+    <div style="max-width: 1000px; margin: auto; text-align: center;">
+      <p style="margin: 0;">&copy; 2025 notte insonne. Cucinato con amore in Italia ❤</p>
+      <p style="margin: 0.5rem 0 0;">Ikuti kami di:
+        <a href="#" style="color: #ffffff; text-decoration: none; margin: 0 0.5rem;">Instagram</a> |
+        <a href="#" style="color: #ffffff; text-decoration: none; margin: 0 0.5rem;">Facebook</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
