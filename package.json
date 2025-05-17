@@ -1,0 +1,24 @@
+{
+  "name": "uts_pw",
+  "version": "1.0.0",
+  "description": "NOTTE INSONNE RESTORAN ITALIA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanzxy2824/UTS_PW.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanzxy2824/UTS_PW/issues"
+  },
+  "homepage": "https://github.com/Sanzxy2824/UTS_PW#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.7",
+    "tailwindcss": "^4.1.7"
+  }
+}
