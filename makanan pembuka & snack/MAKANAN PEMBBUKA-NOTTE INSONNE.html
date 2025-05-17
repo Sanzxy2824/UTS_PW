@@ -1,0 +1,898 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header style="background-color: #21bf73; color: white; padding: 1.5rem 0;">
+        <div style="width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 0 2rem;">
+
+            <!-- Logo dan Judul -->
+            <div style="display: flex; align-items: center;">
+                <img src="asset/logo.jpeg" alt="Logo" style="height: 40px; margin-right: 0.75rem;">
+                <h1 style="margin: 0; font-family: 'Georgia', serif; font-weight: bold; font-size: xx-large;">NOTTE
+                    INSONNE</h1>
+            </div>
+
+            <!-- Navigasi -->
+            <nav>
+                <a href="#home"
+                    style="color: white; font-weight: bold; margin-right: 1.5rem; text-decoration: none;">Beranda</a>
+                <a href="#menu"
+                    style="color: white; font-weight: bold; margin-right: 1.5rem; text-decoration: none;">Menu</a>
+                <a href="#tentangkami" style="color: white; font-weight: bold; text-decoration: none;">Tentang Kami</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Promo Banner Inspired by the Uploaded Design -->
+    <div class="relative">
+        <!-- Promo Container -->
+        <div
+            class="flex flex-col md:flex-row items-center justify-between bg-cover bg-bottom bg-[url('asset/bg.png')] text-gray-800 p-10 md:p-20 shadow-lg relative">
+
+            <!-- Overlay Gelap -->
+            <div class="absolute inset-0 bg-black opacity-70 z-0"></div>
+
+            <!-- Teks Promo -->
+            <div class="md:w-1/2 space-y-4 relative z-10 text-yellow-300" style="font-family: 'Times New Roman', serif">
+                
+                <p class="text-3xl md:text-7xl font-bold">Promo 2023</p>
+                <p class="text-3xl md:text-4xl font-bold"> Bagi Para Pencinta Keju Mozzarella</p>
+                <p class="text-lg md:text-xl">Dapatkan Extra Keju Mozzarella untuk Setiap Pembelian Salad Caprese</p>
+            </div>
+
+            <!-- Gambar Promo -->
+            <div class="md:w-1/2 flex justify-center relative z-10 mt-8 md:mt-0">
+                <img src="asset/promo2.png" alt="Promo keju"
+                    class="h-60 md:h-60 object-contain rounded-lg transform translate-x-30 translate-y-0 scale-250">
+                <img src="asset/promo.png" alt="Promo keju"
+                    class="h-60 md:h-60 object-contain rounded-lg transform translate-x-40 translate-y-10 scale-200">
+            </div>
+
+        </div>
+    </div>
+
+
+    <p class=" text-7xl font-bold mb-6 text-center mt-8" style="font-family: 'Times New Roman', serif">"MAKANAN PEMBUKA"
+    </p>
+
+    <div class=" bg-white w-full overflow-x-auto flex snap-x snap-mandatory space-x-4 px-4 py-4 mt-8">
+        <div class="snap-center shrink-0 w-[400px] h-[400px] rounded-lg overflow-hidden">
+            <img src="asset/artichokes.jpg" class="w-full h-auto rounded-lg" />
+        </div>
+        <div class="snap-center shrink-0 w-[400px] h-[400px] rounded-lg overflow-hidden">
+            <img src="asset/Bruschetta.jpg" class="w-full h-auto rounded-lg" />
+        </div>
+        <div class="snap-center shrink-0 w-[400px] h-[400px] rounded-lg overflow-hidden">
+            <img src="asset/Bunga Zucchini.jpg" class="w-full h-auto rounded-lg" />
+        </div>
+        <div class="snap-center shrink-0 w-[400px] h-[400px] rounded-lg overflow-hidden">
+            <img src="asset/focaccia.jpg" class="w-full h-auto rounded-lg" />
+        </div>
+        <div class="snap-center shrink-0 w-[400px] h-[400px] rounded-lg overflow-hidden">
+            <img src="asset/panzanella.jpg" class="w-full h-auto rounded-lg" />
+        </div>
+        <div class="snap-center shrink-0 w-[400px] h-[400px] rounded-lg overflow-hidden">
+            <img src="asset/Caprese.jpeg" class="w-full h-auto rounded-lg" />
+        </div>
+        <div class="snap-center shrink-0 w-[400px] h-[400px] rounded-lg overflow-hidden">
+            <img src="asset/Fritto Misto.jpeg" class="w-full h-auto rounded-lg" />
+        </div>
+        <div class="snap-center shrink-0 w-[400px] h-[400px] rounded-lg overflow-hidden">
+            <img src="asset/erbazzone.jpg" class="w-full h-auto rounded-lg" />
+        </div>
+        <div class="snap-center shrink-0 w-[400px] h-[400px] rounded-lg overflow-hidden">
+            <img src="asset/zaitun2.jpg" class="w-full h-auto rounded-lg" />
+        </div>
+        <div class="snap-center shrink-0 w-[400px] h-[400px] rounded-lg overflow-hidden">
+            <img src="asset/MOZAKEBO.jpg" class="w-full h-auto rounded-lg" />
+        </div>
+        <div class="snap-center shrink-0 w-[400px] h-[400px] rounded-lg overflow-hidden">
+            <img src="asset/Chorizo Arancini.jpeg" class="w-full h-auto rounded-lg" />
+        </div>
+        <div class="snap-center shrink-0 w-[400px] h-[400px] rounded-lg overflow-hidden">
+            <img src="asset/eggplant-caponata.jpg" class="w-full h-auto rounded-lg" />
+        </div>
+        <div class="snap-center shrink-0 w-[400px] h-[400px] rounded-lg overflow-hidden">
+            <img src="asset/Antipasto.jpg" class="w-full h-auto rounded-lg" />
+        </div>
+        <div class="snap-center shrink-0 w-[400px] h-[400px] rounded-lg overflow-hidden">
+            <img src="asset/beef.jpg" class="w-full h-auto rounded-lg" />
+        </div>
+        <div class="snap-center shrink-0 w-[400px] h-[400px] rounded-lg overflow-hidden">
+            <img src="asset/pesto.jpg" class="w-full h-auto rounded-lg" />
+        </div>
+        <div class="snap-center shrink-0 w-[400px] h-[400px] rounded-lg overflow-hidden">
+            <img src="asset/kacanghijau.jpg" class="w-full h-auto rounded-lg" />
+        </div>
+        <div class="snap-center shrink-0 w-[400px] h-[400px] rounded-lg overflow-hidden">
+            <img src="asset/ravioli.jpg" class="w-full h-auto rounded-lg" />
+        </div>
+        <div class="snap-center shrink-0 w-[400px] h-[400px] rounded-lg overflow-hidden">
+            <img src="asset/jamur.jpg" class="w-full h-auto rounded-lg" />
+        </div>
+        <div class="snap-center shrink-0 w-[400px] h-[400px] rounded-lg overflow-hidden">
+            <img src="asset/Lasagna.jpg" class="w-full h-auto rounded-lg" />
+        </div>
+        <div class="snap-center shrink-0 w-[400px] h-[400px] rounded-lg overflow-hidden">
+            <img src="asset/ara.jpg" class="w-full h-auto rounded-lg" />
+        </div>
+    </div>
+
+
+    <p class=" bg-neutral-100 italic font-bold text-center space-x-5 px-20 py-10  ">
+        Makanan pembuka Italia, atau yang dikenal dengan istilah appetizer, merupakan hidangan
+        ringan yang disajikan sebelum hidangan utama. Appetizer biasanya terdiri dari berbagai pilihan yang menawarkan
+        rasa gurih, asam, dan pedas, menggunakan bahan-bahan segar dan berkualitas tinggi. Hidangan ini bisa mencakup
+        roti panggang yang diberi topping tomat cincang, bawang putih, basil, dan minyak zaitun, yang dikenal dengan
+        nama bruschetta. Selain itu, ada juga crostini yang serupa tetapi menggunakan potongan roti lebih kecil dengan
+        berbagai topping seperti pate atau keju.
+
+        Salad Caprese adalah hidangan pembuka yang menyegarkan, dengan irisan tomat segar, mozzarella, basil, dan minyak
+        zaitun. Beberapa hidangan lainnya termasuk campuran keju Italia dan zaitun, serta prosciutto yang dipadukan
+        dengan melon manis, menciptakan perpaduan rasa asin dan manis yang sangat populer. Semua makanan pembuka ini
+        bertujuan untuk menggugah selera dan mempersiapkan tamu untuk hidangan utama yang lebih berat.</p>
+    <!-- Menu -->
+
+    <div class="bg-neutral-100 text-gray-800 font-sans p-6 -mx-2">
+        <div class="max-w-screen-2xl mx-auto px-1">
+            <h1 class="text-3xl font-bold mb-6 text-center mt-8" style="font-family: 'Times New Roman', serif">
+                MENU
+            </h1>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+                <!-- Menu 1 -->
+                <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                    <img src="asset/Bruschetta.jpg" alt="1" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                    <h2 class="text-xl font-semibold text-center mb-2">
+                        Bruschetta Tomat
+                    </h2>
+                    <p class="text-gray-600 text-sm text-justify mb-4">
+                        Antipasto Italia yang tak lekang oleh waktu ini dapat disiapkan hanya dalam hitungan menit,
+                        sehingga memudahkan tuan rumah. Ini adalah cara yang tepat untuk memamerkan tomat saat sudah
+                        matang dan sedang musim, baik tomat tersebut berasal dari kebun Anda, pasar petani, atau toko
+                        kelontong.
+                    </p>
+                    <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                    <div class="mt-5 flex justify-center gap-4">
+                        <button
+                            class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                            Pesan
+                        </button>
+                    </div>
+                </div>
+
+
+                <!-- Menu 2-->
+                <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                    <img src="asset/Bunga Zucchini.jpg" alt="2" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                    <h2 class="text-xl font-semibold text-center mb-2">
+                        Bunga Zucchini Goreng
+                    </h2>
+                    <p class="text-gray-600 text-sm text-justify mb-4">
+                        Dalam resep ini, bunga zucchini yang lembut diisi dengan mozzarella cair dan prosciutto asin
+                        sebelum dibalut tepung tipis dan digoreng menjadi sajian renyah yang lumer di mulut.
+                    </p>
+                    <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                    <div class="mt-5 flex justify-center gap-4">
+                        <button
+                            class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                            Pesan
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Menu 3 -->
+                <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                    <img src="asset/panzanella.jpg" alt="3" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                    <h2 class="text-xl font-semibold text-center mb-2">
+                        Salad Panzanella
+                    </h2>
+                    <p class="text-gray-600 text-sm text-justify mb-4">
+                        Panzanella adalah selada cincang Toscana dari roti basi basah, bawang dan tomat yang populer di
+                        musim panas. Ini sering termasuk mentimun, kadang-kadang kemangi dan berpakaian dengan minyak
+                        zaitun dan cuka
+                    </p>
+                    <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                    <div class="mt-5 flex justify-center gap-4">
+                        <button
+                            class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                            Pesan
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- Menu 4 -->
+                <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                    <img src="asset/artichokes.jpg" alt="4" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                    <h2 class="text-xl font-semibold text-center mb-2">
+                        Artichoke Panggang
+                    </h2>
+                    <p class="text-gray-600 text-sm text-justify mb-4">
+                        Artichoke paling nikmat dan paling mudah diolah apabila dimasak cepat di atas api panas,
+                        terutama bila disajikan dengan aioli lemon lezat yang terbuat dari sari buah dan daging lemon
+                        panggang yang berasap.
+                    </p>
+                    <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                    <div class="mt-5 flex justify-center gap-4">
+                        <button
+                            class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                            Pesan
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- Menu 5 -->
+                <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                    <img src="asset/focaccia.jpg" alt="5" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                    <h2 class="text-xl font-semibold text-center mb-2">
+                        Focaccia dengan keju
+                    </h2>
+                    <p class="text-gray-600 text-sm text-justify mb-4">
+                        Camilan ini, yang juga dikenal sebagai focaccia di Recco, adalah roti Italia yang renyah,
+                        berlapis-lapis, dan berisi keju, cocok untuk dijadikan camilan kapan saja sepanjang hari.
+                    </p>
+                    <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                    <div class="mt-5 flex justify-center gap-4">
+                        <button
+                            class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                            Pesan
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- Menu 6 -->
+                <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                    <img src="asset/Caprese.jpeg" alt="6" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                    <h2 class="text-xl font-semibold text-center mb-2">
+                        Salad Caprese
+                    </h2>
+                    <p class="text-gray-600 text-sm text-justify mb-4">
+                        Salad Caprese berasal dari Pulau Capri di Italia, dan menggambarkan suasana menikmati makan
+                        siang musim panas yang panjang dan santai saat Anda sedang berlibur. Salad ini sangat sederhana
+                        dan bergantung pada penggunaan bahan-bahan berkualitas terbaik.
+                    </p>
+                    <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                    <div class="mt-5 flex justify-center gap-4">
+                        <button
+                            class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                            Pesan
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- Menu 7 -->
+                <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                    <img src="asset/Fritto Misto.jpeg" alt="7" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                    <h2 class="text-xl font-semibold text-center mb-2">
+                        Fritto Misto
+                    </h2>
+                    <p class="text-gray-600 text-sm text-justify mb-4">
+                        Campuran udang, cumi-cumi, zaitun isi ikan teri, dan irisan lemon tipis yang dicelupkan ke dalam
+                        adonan berbumbu Pernod dan digoreng hingga renyah dan keemasan.
+                    </p>
+                    <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                    <div class="mt-5 flex justify-center gap-4">
+                        <button
+                            class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                            Pesan
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- Menu 8 -->
+                <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                    <img src="asset/erbazzone.jpg" alt="8" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                    <h2 class="text-xl font-semibold text-center mb-2">
+                        Erbazzone Reggiano
+                    </h2>
+                    <p class="text-gray-600 text-sm text-justify mb-4">
+                        Pai bayam yang lezat dan mengenyangkan dengan kulit yang ringan dan hampir menyerupai kerupuk
+                        ini mengandalkan bahan-bahan sederhana untuk hasil akhir yang mengesankan. Karena bayam dikukus
+                        dengan lembut di dalam kulitnya, rasanya tetap segar dan hijau bahkan setelah dimasak.
+                    </p>
+                    <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                    <div class="mt-5 flex justify-center gap-4">
+                        <button
+                            class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                            Pesan
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- Menu 9 -->
+                <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                    <img src="asset/zaitun.jpg" alt="9" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                    <h2 class="text-xl font-semibold text-center mb-2">
+                        Zaitun Goreng Isi Sosis
+                    </h2>
+                    <p class="text-gray-600 text-sm text-justify mb-4">
+                        Zaitun Castelvetrano yang lembut dan bermentega menambahkan sedikit rasa asin dan asam pada
+                        camilan sosis goreng ini yang sangat cocok dipadukan dengan martini segar atau segelas anggur
+                        dingin. Gunakan sosis Italia berkualitas tinggi untuk mendapatkan tekstur dan rasa terbaik.
+                    </p>
+                    <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                    <div class="mt-5 flex justify-center gap-4">
+                        <button
+                            class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                            Pesan
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- Menu 10 -->
+                <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                    <img src="asset/MOZAKEBO.jpg" alt="10" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                    <h2 class="text-xl font-semibold text-center mb-2">
+                        Mozzarella Kerbau
+                    </h2>
+                    <p class="text-gray-600 text-sm text-justify mb-4">
+                        Penulis buku masak yang berbasis di Roma, Rachel Roddy, menyajikan tomat panggang dengan dua
+                        cara di sini untuk menghasilkan berbagai rasa tomat yang lezat serta penyajian yang cantik
+                        dipadukan dengan mozzarella kerbau yang lezat.
+                    </p>
+                    <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                    <div class="mt-5 flex justify-center gap-4">
+                        <button
+                            class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                            Pesan
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- Menu 11 -->
+                <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                    <img src="asset/Chorizo Arancini.jpeg" alt="11" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                    <h2 class="text-xl font-semibold text-center mb-2">
+                        Arancini dengan Kacang Polong dan Mozzarella
+                    </h2>
+                    <p class="text-gray-600 text-sm text-justify mb-4">
+                        Nenek Grace Parisi yang berasal dari Calabria selalu menggunakan nasi putih biasa untuk membuat
+                        arancini (bola nasi) yang lezat, tetapi Parisi lebih suka memasak dengan arborio yang gemuk agar
+                        bagian dalamnya lebih lembut.
+                    </p>
+                    <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                    <div class="mt-5 flex justify-center gap-4">
+                        <button
+                            class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                            Pesan
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- Menu 12 -->
+                <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                    <img src="asset/eggplant-caponata.jpg" alt="12" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                    <h2 class="text-xl font-semibold text-center mb-2">
+                        Caponata Terong Panggang
+                    </h2>
+                    <p class="text-gray-600 text-sm text-justify mb-4">
+                        Jika Anda punya waktu, buatlah caponata setidaknya sehari sebelumnya; ini adalah salah satu
+                        hidangan yang akan semakin lezat jika didiamkan. Makanlah seperti yang biasa dilakukan orang
+                        Sisilia, disendokkan di atas roti atau focaccia.
+                    </p>
+                    <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                    <div class="mt-5 flex justify-center gap-4">
+                        <button
+                            class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                            Pesan
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- Menu 13 -->
+                <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                    <img src="asset/Antipasto.jpg" alt="13" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                    <h2 class="text-xl font-semibold text-center mb-2">
+                        Salad Antipasto
+                    </h2>
+                    <p class="text-gray-600 text-sm text-justify mb-4">
+                        Selada gunung es yang diiris tipis menjadi dasar renyah untuk salad yang dibuat dengan
+                        bocconcini, salami Genoa, peperoncini, dan buah zaitun hijau.
+                    </p>
+                    <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                    <div class="mt-5 flex justify-center gap-4">
+                        <button
+                            class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                            Pesan
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- Menu 14 -->
+                <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                    <img src="asset/beef.jpg" alt="14" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                    <h2 class="text-xl font-semibold text-center mb-2">
+                        Spiedini Daging Sapi
+                    </h2>
+                    <p class="text-gray-600 text-sm text-justify mb-4">
+                        Spiedini, hidangan favorit Italia, sangat cocok untuk hari libur dan acara-acara khusus lainnya.
+                        Tusuk sate yang mengenyangkan berisi steak pinwheels yang diasinkan dan diisi dengan saus
+                        marinara dan remah roti.
+                    </p>
+                    <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                    <div class="mt-5 flex justify-center gap-4">
+                        <button
+                            class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                            Pesan
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- Menu 15 -->
+                <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                    <img src="asset/pesto.jpg" alt="15" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                    <h2 class="text-xl font-semibold text-center mb-2">
+                        Pesto Kacang Manis
+                    </h2>
+                    <p class="text-gray-600 text-sm text-justify mb-4">
+                        Saya membuat pesto kacang polong yang lebih sehat dengan mengganti sebagian minyak dengan kaldu
+                        sayuran dan mengurangi keju. Untuk digunakan pada pasta, tambahkan lebih banyak kaldu untuk
+                        mendapatkan konsistensi seperti saus. —Amber Massey, Argyle, Texas
+                    </p>
+                    <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                    <div class="mt-5 flex justify-center gap-4">
+                        <button
+                            class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                            Pesan
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- Menu 16 -->
+                <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                    <img src="asset/kacanghijau.jpg" alt="16" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                    <h2 class="text-xl font-semibold text-center mb-2">
+                        Salad Kacang Hijau
+                    </h2>
+                    <p class="text-gray-600 text-sm text-justify mb-4">
+                        Sajikan kacang hijau dengan cara yang benar-benar barudengan resep salad kacang hijau! Rasa
+                        asam dan kerenyahan kacang hijau balsamic ini melengkapi setiap hidangan istimewa atau acara
+                        makan bersama di hari raya. —Megan Spencer, Farmington Hills, Michigan
+                    </p>
+                    <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                    <div class="mt-5 flex justify-center gap-4">
+                        <button
+                            class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                            Pesan
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- Menu 17 -->
+                <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                    <img src="asset/ravioli.jpg" alt="17" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                    <h2 class="text-xl font-semibold text-center mb-2">
+                        Ravioli Nachos
+                    </h2>
+                    <p class="text-gray-600 text-sm text-justify mb-4">
+                        Dilapisi tepung roti tipis dan digoreng, ravioli menjadi hidangan pembuka yang lezat. Anak-anak
+                        dan orang dewasa tidak akan pernah bosan dengan hidangan yang renyah, beraroma keju ini.—Robert
+                        Doornbos, Jenison, Michigan
+                    </p>
+                    <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                    <div class="mt-5 flex justify-center gap-4">
+                        <button
+                            class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                            Pesan
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- Menu 18 -->
+                <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                    <img src="asset/jamur.jpg" alt="18" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                    <h2 class="text-xl font-semibold text-center mb-2">
+                        Jamur Polenta
+                    </h2>
+                    <p class="text-gray-600 text-sm text-justify mb-4">
+                        Bahan-bahan sederhana—bahkan mungkin Anda memiliki sebagian besar atau bahkan semuanya di dapur
+                        Anda—digunakan untuk membuat hidangan pembuka yang fantastis namun berbeda.—Meta West, Abilene,
+                        Kansas
+                    </p>
+                    <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                    <div class="mt-5 flex justify-center gap-4">
+                        <button
+                            class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                            Pesan
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- Menu 19 -->
+                <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                    <img src="asset/Lasagna.jpg" alt="19" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                    <h2 class="text-xl font-semibold text-center mb-2">
+                        Saus Lasagna
+                    </h2>
+                    <p class="text-gray-600 text-sm text-justify mb-4">
+                        Keripik mi lasagna saya ternyata enak dan renyahnya bukan main. Dan sausnya benar-benar terasa
+                        seperti lasagna Italia-Amerika yang gurih dan keju
+                    </p>
+                    <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                    <div class="mt-5 flex justify-center gap-4">
+                        <button
+                            class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                            Pesan
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- Menu 20 -->
+                <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                    <img src="asset/ara.jpg" alt="20" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                    <h2 class="text-xl font-semibold text-center mb-2">
+                        Buah Ara dengan Karamel Asin dan Cokelat Hitam
+                    </h2>
+                    <p class="text-gray-600 text-sm text-justify mb-4">
+                        Ini adalah hidangan pembuka spesial yang tidak akan bertahan lama! Buah, karamel, dan cokelat
+                        hitam yang kaya menambahkan sentuhan manis pada buah yang dicelupkan untuk orang dewasa ini.
+                        —Dapur Uji Sederhana & Lezat
+                    </p>
+                    <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                    <div class="mt-5 flex justify-center gap-4">
+                        <button
+                            class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                            Pesan
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menu Snacks  -->
+<div class="bg-neutral-100 text-gray-800 font-sans p-6 -mx-2">
+    <div class="max-w-screen-2xl mx-auto px-1">
+        <h1 class="text-3xl font-bold mb-6 text-center mt-8" style="font-family: 'Times New Roman', serif">
+            SNACKS
+        </h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+            <!-- Snack 1 -->
+            <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                <img src="asset/snack1.jpg" alt="Trapizinno" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                <h2 class="text-xl font-semibold text-center mb-2">Trapizinno</h2>
+                <p class="text-gray-600 text-sm text-justify mb-4">
+                    Sejenis sandwich goreng tradisional dari Italia Selatan yang berisi berbagai bahan seperti keju dan daging.
+                </p>
+                <span class="font-bold text-brown-700 text-center mt-auto">Rp 20.000</span>
+                <div class="mt-5 flex justify-center gap-4">
+                    <button class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                        Pesan
+                    </button>
+                </div>
+            </div>
+
+            <!-- Snack 2 -->
+            <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                <img src="asset/snack2.jpg" alt="Polpette" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                <h2 class="text-xl font-semibold text-center mb-2">Polpette</h2>
+                <p class="text-gray-600 text-sm text-justify mb-4">
+                    Bola daging Italia yang disajikan sebagai camilan gurih, sering dipadukan dengan saus tomat khas.
+                </p>
+                <span class="font-bold text-brown-700 text-center mt-auto">Rp 22.000</span>
+                <div class="mt-5 flex justify-center gap-4">
+                    <button class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                        Pesan
+                    </button>
+                </div>
+            </div>
+
+            <!-- Snack 3 -->
+            <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                <img src="asset/snack3.jpg" alt="Pizzette" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                <h2 class="text-xl font-semibold text-center mb-2">Pizzette</h2>
+                <p class="text-gray-600 text-sm text-justify mb-4">
+                    Mini pizza khas Italia dengan berbagai topping seperti tomat, keju, dan basil, cocok sebagai cemilan.
+                </p>
+                <span class="font-bold text-brown-700 text-center mt-auto">Rp 18.000</span>
+                <div class="mt-5 flex justify-center gap-4">
+                    <button class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                        Pesan
+                    </button>
+                </div>
+            </div>
+
+            <!-- Snack 4 -->
+            <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                <img src="asset/snack4.jpg" alt="Panzerotti" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                <h2 class="text-xl font-semibold text-center mb-2">Panzerotti</h2>
+                <p class="text-gray-600 text-sm text-justify mb-4">
+                    Adonan pizza kecil diisi bahan gurih dan digoreng, menghasilkan camilan bertekstur renyah dan lembut.
+                </p>
+                <span class="font-bold text-brown-700 text-center mt-auto">Rp 20.000</span>
+                <div class="mt-5 flex justify-center gap-4">
+                    <button class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                        Pesan
+                    </button>
+                </div>
+            </div>
+
+            <!-- Snack 5 -->
+            <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                <img src="asset/snack5.jpg" alt="Pane e olio" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                <h2 class="text-xl font-semibold text-center mb-2">Pane e olio</h2>
+                <p class="text-gray-600 text-sm text-justify mb-4">
+                    Roti Italia yang diolesi minyak zaitun berkualitas, sederhana tapi sangat lezat sebagai camilan.
+                </p>
+                <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                <div class="mt-5 flex justify-center gap-4">
+                    <button class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                        Pesan
+                    </button>
+                </div>
+            </div>
+
+            <!-- Snack 6 -->
+            <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                <img src="asset/snack6.jpg" alt="Sciatt" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                <h2 class="text-xl font-semibold text-center mb-2">Sciatt</h2>
+                <p class="text-gray-600 text-sm text-justify mb-4">
+                    Bola kecil keju goreng yang renyah, camilan khas Italia dengan rasa gurih dan tekstur crunchy.
+                </p>
+                <span class="font-bold text-brown-700 text-center mt-auto">Rp 18.000</span>
+                <div class="mt-5 flex justify-center gap-4">
+                    <button class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                        Pesan
+                    </button>
+                </div>
+            </div>
+
+            <!-- Snack 7 -->
+            <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                <img src="asset/snack7.jpg" alt="Rustico" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                <h2 class="text-xl font-semibold text-center mb-2">Rustico</h2>
+                <p class="text-gray-600 text-sm text-justify mb-4">
+                    Pastry gurih dari Italia dengan isian keju, ham, dan saus béchamel yang creamy.
+                </p>
+                <span class="font-bold text-brown-700 text-center mt-auto">Rp 22.000</span>
+                <div class="mt-5 flex justify-center gap-4">
+                    <button class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                        Pesan
+                    </button>
+                </div>
+            </div>
+
+            <!-- Snack 8 -->
+            <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                <img src="asset/snack8.jpg" alt="Borlengo" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                <h2 class="text-xl font-semibold text-center mb-2">Borlengo</h2>
+                <p class="text-gray-600 text-sm text-justify mb-4">
+                    Pancake tipis Italia yang renyah, disajikan dengan minyak zaitun dan rempah khas daerah Emilia-Romagna.
+                </p>
+                <span class="font-bold text-brown-700 text-center mt-auto">Rp 20.000</span>
+                <div class="mt-5 flex justify-center gap-4">
+                    <button class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                        Pesan
+                    </button>
+                </div>
+            </div>
+
+            <!-- Snack 9 -->
+            <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                <img src="asset/snack9.jpg" alt="Arancini" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                <h2 class="text-xl font-semibold text-center mb-2">Arancini</h2>
+                <p class="text-gray-600 text-sm text-justify mb-4">
+                    Bola nasi goreng isi ragù atau keju yang renyah dari luar, populer di Italia Selatan.
+                </p>
+                <span class="font-bold text-brown-700 text-center mt-auto">Rp 22.000</span>
+                <div class="mt-5 flex justify-center gap-4">
+                    <button class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                        Pesan
+                    </button>
+                </div>
+            </div>
+
+            <!-- Snack 10 -->
+            <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                <img src="asset/snack10.jpg" alt="Gnocco Fritto" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                <h2 class="text-xl font-semibold text-center mb-2">Gnocco Fritto</h2>
+                <p class="text-gray-600 text-sm text-justify mb-4">
+                    Roti goreng lembut khas Emilia-Romagna yang biasanya disajikan dengan irisan daging atau keju.
+                </p>
+                <span class="font-bold text-brown-700 text-center mt-auto">Rp 20.000</span>
+                <div class="mt-5 flex justify-center gap-4">
+                    <button class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                        Pesan
+                    </button>
+                </div>
+            </div>
+
+            <!-- Snack 11 -->
+            <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                <img src="asset/snack11.jpg" alt="Crocche" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                <h2 class="text-xl font-semibold text-center mb-2">Crocche</h2>
+                <p class="text-gray-600 text-sm text-justify mb-4">
+                    Kroket kentang renyah khas Italia yang biasa disantap sebagai camilan gurih lezat.
+                </p>
+                <span class="font-bold text-brown-700 text-center mt-auto">Rp 18.000</span>
+                <div class="mt-5 flex justify-center gap-4">
+                    <button class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                        Pesan
+                    </button>
+                </div>
+            </div>
+
+            <!-- Snack 12 -->
+            <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                <img src="asset/snack12.jpg" alt="Fiori di zucca ripieni" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                <h2 class="text-xl font-semibold text-center mb-2">Fiori di zucca ripieni</h2>
+                <p class="text-gray-600 text-sm text-justify mb-4">
+                    Bunga zucchini isi keju dan herbs, digoreng hingga renyah, camilan unik yang menggoda selera.
+                </p>
+                <span class="font-bold text-brown-700 text-center mt-auto">Rp 25.000</span>
+                <div class="mt-5 flex justify-center gap-4">
+                    <button class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                        Pesan
+                    </button>
+                </div>
+            </div>
+
+            <!-- Snack 13 -->
+            <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                <img src="asset/snack13.jpg" alt="Arancini al ragu" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                <h2 class="text-xl font-semibold text-center mb-2">Arancini al ragu</h2>
+                <p class="text-gray-600 text-sm text-justify mb-4">
+                    Varian arancini dengan isian ragù daging dan keju, sangat populer di Sicilia.
+                </p>
+                <span class="font-bold text-brown-700 text-center mt-auto">Rp 23.000</span>
+                <div class="mt-5 flex justify-center gap-4">
+                    <button class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                        Pesan
+                    </button>
+                </div>
+            </div>    
+
+            <!-- Snack 14 -->
+            <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                <img src="asset/snack14.jpg" alt="Cartocciata" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                <h2 class="text-xl font-semibold text-center mb-2">Cartocciata</h2>
+                <p class="text-gray-600 text-sm text-justify mb-4">
+                    Roti gulung khas Calabria dengan isi daging dan keju, cocok sebagai camilan gurih dan mengenyangkan.
+                </p>
+                <span class="font-bold text-brown-700 text-center mt-auto">Rp 22.000</span>
+                <div class="mt-5 flex justify-center gap-4">
+                    <button class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                        Pesan
+                    </button>
+                </div>
+            </div>    
+
+            <!-- Snack 15 -->
+            <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                <img src="asset/snack15.jpg" alt="Arancini al burro" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                <h2 class="text-xl font-semibold text-center mb-2">Arancini al burro</h2>
+                <p class="text-gray-600 text-sm text-justify mb-4">
+                    Arancini isi mentega dan keju, pilihan lezat dan creamy yang menggoda selera.
+                </p>
+                <span class="font-bold text-brown-700 text-center mt-auto">Rp 23.000</span>
+                <div class="mt-5 flex justify-center gap-4">
+                    <button class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                        Pesan
+                    </button>
+                </div>
+            </div>    
+
+            <!-- Snack 16 -->
+            <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                <img src="asset/snack16.jpg" alt="Pizzelle Napoletane" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                <h2 class="text-xl font-semibold text-center mb-2">Pizzelle Napoletane</h2>
+                <p class="text-gray-600 text-sm text-justify mb-4">
+                    Kue renyah khas Napoli dengan rasa manis, sering disantap saat perayaan dan camilan manis.
+                </p>
+                <span class="font-bold text-brown-700 text-center mt-auto">Rp 20.000</span>
+                <div class="mt-5 flex justify-center gap-4">
+                    <button class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                        Pesan
+                    </button>
+                </div>
+            </div>    
+
+            <!-- Snack 17 -->
+            <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                <img src="asset/snack17.jpg" alt="Taralli" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                <h2 class="text-xl font-semibold text-center mb-2">Taralli</h2>
+                <p class="text-gray-600 text-sm text-justify mb-4">
+                    Kerupuk tradisional Italia berbentuk cincin dengan rasa asin dan rempah, cocok sebagai cemilan ringan.
+                </p>
+                <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                <div class="mt-5 flex justify-center gap-4">
+                    <button class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                        Pesan
+                    </button>
+                </div>
+            </div>    
+
+            <!-- Snack 18 -->
+            <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                <img src="asset/snack18.jpg" alt="Erbazzone Reggiano" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                <h2 class="text-xl font-semibold text-center mb-2">Erbazzone Reggiano</h2>
+                <p class="text-gray-600 text-sm text-justify mb-4">
+                    Pai isi bayam dan keju khas daerah Reggio Emilia, gurih dan nikmat sebagai camilan hangat.
+                </p>
+                <span class="font-bold text-brown-700 text-center mt-auto">Rp 22.000</span>
+                <div class="mt-5 flex justify-center gap-4">
+                    <button class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                        Pesan
+                    </button>
+                </div>
+            </div>    
+
+            <!-- Snack 19 -->
+            <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                <img src="asset/snack19.jpg" alt="Pane guttiau" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                <h2 class="text-xl font-semibold text-center mb-2">Pane guttiau</h2>
+                <p class="text-gray-600 text-sm text-justify mb-4">
+                    Roti tipis tradisional Sardinia yang dipanggang dengan minyak zaitun dan garam kasar.
+                </p>
+                <span class="font-bold text-brown-700 text-center mt-auto">Rp 18.000</span>
+                <div class="mt-5 flex justify-center gap-4">
+                    <button class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                        Pesan
+                    </button>
+                </div>
+            </div>    
+
+            <!-- Snack 20 -->
+            <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col h-full">
+                <img src="asset/snack20.jpg" alt="Daun Sage Goreng (Salvia fritta)" class="rounded-lg mb-4 w-full h-48 object-cover" />
+                <h2 class="text-xl font-semibold text-center mb-2">Daun Sage Goreng (Salvia fritta)</h2>
+                <p class="text-gray-600 text-sm text-justify mb-4">
+                    Daun sage segar yang dibalut tepung dan digoreng hingga renyah, camilan aromatik khas Italia.
+                </p>
+                <span class="font-bold text-brown-700 text-center mt-auto">Rp 15.000</span>
+                <div class="mt-5 flex justify-center gap-4">
+                    <button class="bg-[#21bf73] hover:bg-green-700 text-white font-semibold py-1 px-3 rounded-full transition duration-300">
+                        Pesan
+                    </button>
+                </div>
+            </div>    
+        </div>
+    </div>
+</div>
+
+        <!-- Contact -->
+    <div class="py-20 px-6 md:px-24 bg-neutral-100 text-center">
+        <h3 class="text-3xl md:text-4xl font-bold text-black-400 mb-6">Hubungi Kami</h3>
+        <p class="text-black-300 mb-6">📍 Jl. Ring Road Utara, Ngringin, Condongcatur, Kec. Depok, Kabupaten Sleman,
+            Daerah Istimewa Yogyakarta<br>📞 021-68753-NOTTE<br>📧 @notteinsonne.id</p>
+        <a href="mailto:reservasi@notteinsonne.id"></a>
+    </div>
+
+    <!-- Footer -->
+    <footer style="background-color: #fd5e53; color: #f9fcfb; padding: 1rem;  ">
+        <div style="max-width: 1000px; margin: auto; text-align: center;">
+            <p style="margin: 0;">&copy; 2025 notte insonne. Cucinato con amore in Italia ❤️</p>
+            <p style="margin: 0.5rem 0 0;">Ikuti kami di:
+                <a href="#" style="color: #ffffff; text-decoration: none; margin: 0 0.5rem;">Instagram</a> |
+                <a href="#" style="color: #ffffff; text-decoration: none; margin: 0 0.5rem;">Facebook</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
